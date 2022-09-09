@@ -1,5 +1,7 @@
+import app from './src/app.js';
 
-import customExpress from './config/custom-express'
+const port = process.env.PORT || 3000;
 
-const app = customExpress()
-app.listen(3000, () => console.log('Servidor rodando na porta 3000'))
+app.listen(port, () => {
+    console.log(`Escutando servidor ${port}`)
+})
