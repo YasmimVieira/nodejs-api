@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
+import {} from 'dotenv/config'
 
-mongoose.connect("mongodb+srv://livraria:senha123@cluster0.kbknugi.mongodb.net");
+mongoose.connect(`mongodb+srv://${process.env.DB_NAME}:${process.env.DB_PASSWORD}@cluster0.kbknugi.mongodb.net`);
 
 let db = mongoose.connection;
 
