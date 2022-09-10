@@ -18,7 +18,7 @@ Para acessa a API, a URL esta disponivel em: https://livraria-crud.herokuapp.com
 | `titulo` | `string` | **Obrigatório**|
 | `autor` | `string` | **Obrigatório**|
 | `editora` | `string` | **Obrigatório**|
-| `numeroDePaginas` | `string` | **Obrigatório**|
+| `numeroDePaginas` | `number` | **Obrigatório**|
 
 #### Lista os livros criados
 
@@ -118,6 +118,12 @@ Para acessa a API, a URL esta disponivel em: https://livraria-crud.herokuapp.com
 ```http
   GET /https://livraria-crud.herokuapp.com/autores
 ```
+
+## Demonstacao de como fazer chamadas no insomnia
+
+
+https://user-images.githubusercontent.com/47395019/189471477-57bf23da-03fd-44e4-b30a-7a3575851f2c.mp4
+
 
 ## Apêndice
 
