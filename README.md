@@ -32,7 +32,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 ##### No body voce manda o que quer alterar. Exemplo: eu quero alterar o nome do autor...
 ```http
   {
-    "autor": "CSS Grid avancado"
+    "titulo": "CSS Grid avancado"
   }
 ```
 
