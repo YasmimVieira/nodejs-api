@@ -3,13 +3,14 @@
 Simples CRUD utilizando boas praticas com nodejs e mongoDB
 
 ## Documentação da API
+Para acessa a API, a URL esta disponivel em: https://livraria-crud.herokuapp.com/
 
 ### Livros - CRUD
 
 #### Cria um livro
 
 ```http
-  POST /localhost/livros
+  POST /https://livraria-crud.herokuapp.com/livros
 ```
 
 | Parâmetro   | Tipo       | Descrição                           |
@@ -22,7 +23,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Lista os livros criados
 
 ```http
-  PUT /localhost/livros/:id
+  PUT /https://livraria-crud.herokuapp.com/livros/:id
 ```
 
 | Parâmetro   | Exemplo       | Descrição                                   |
@@ -39,7 +40,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Deleta um livro
 
 ```http
-  DELETE /localhost/livros/:id
+  DELETE /https://livraria-crud.herokuapp.com/livros/:id
 ```
 
 | Parâmetro   | Exemplo       | Descrição                                   |
@@ -49,7 +50,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Lista um livro especifico
 
 ```http
-  GET /localhost/livros/:id
+  GET /https://livraria-crud.herokuapp.com/livros/:id
 ```
 
 | Parâmetro   | Exemplo       | Descrição                                   |
@@ -59,7 +60,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Lista todos livros
 
 ```http
-  GET /localhost/livros
+  GET /https://livraria-crud.herokuapp.com/livros
 ```
 
 ### Autores - CRUD
@@ -67,7 +68,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Cria um autor
 
 ```http
-  POST /localhost/autores
+  POST /https://livraria-crud.herokuapp.com/autores
 ```
 
 | Parâmetro   | Tipo       | Descrição                           |
@@ -78,7 +79,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Lista os autores criados
 
 ```http
-  PUT /localhost/autores/:id
+  PUT /https://livraria-crud.herokuapp.com/autores/:id
 ```
 
 | Parâmetro   | Exemplo       | Descrição                                   |
@@ -95,7 +96,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Deleta um autor
 
 ```http
-  DELETE /localhost/autores/:id
+  DELETE /https://livraria-crud.herokuapp.com/autores/:id
 ```
 
 | Parâmetro   | Exemplo       | Descrição                                   |
@@ -105,7 +106,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Lista um autor especifico
 
 ```http
-  GET /localhost/autores/:id
+  GET /https://livraria-crud.herokuapp.com/autores/:id
 ```
 
 | Parâmetro   | Exemplo       | Descrição                                   |
@@ -115,7 +116,7 @@ Simples CRUD utilizando boas praticas com nodejs e mongoDB
 #### Lista todos autores
 
 ```http
-  GET /localhost/autores
+  GET /https://livraria-crud.herokuapp.com/autores
 ```
 
 ## Apêndice
